@@ -7,10 +7,10 @@ function Head1() {
     <>
 
 
-<nav className="navbar mt-0 navbar-expand-lg  fixed-top nav-round shadow main-div " >
+<nav className="navbar mt-0 navbar-expand-lg  fixed-top  shadow main-div " >
 <div className="container-fluid  d-flex justify-content-between ">
     <div >
-        <a className="navbar-brand fw-bold logo mx-4 " href="#">PHYSIO</a>
+        <a className="navbar-brand fw-bold logo mx-4 " ><img src="Happy_Life-removebg-preview.png" alt="" height="50px" width="50px" href=""   /></a>
     </div>
     <div className='nav-button '>
     <button className="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -33,7 +33,7 @@ function Head1() {
                     Our Offerings
                 </a>
                 <ul className="dropdown-menu" >
-                    <li><a className="dropdown-item"  href="#">Therapies Offered</a></li>
+                    <li><a className="dropdown-item"  href="#"><Link to={'/therapiesoffered'}>Therapies Offered</Link></a></li>
                     <li><a className="dropdown-item" href="#">Services Offered</a></li>
                 </ul>
             </li>

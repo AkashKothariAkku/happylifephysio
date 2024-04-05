@@ -17,7 +17,7 @@ function Footer1() {
                             <div className="row">
 
                                 <div className="col-lg-6 col-md-6 mb-4 mb-md-0">
-                                    <h5 className="text-uppercase ">FOOTER CONTENT</h5>
+                                <a className="navbar-brand fw-bold logo mx-4 " ><img src="Happy_Life-removebg-preview.png" alt="" height="100px" width="100px" href=""   /></a>
 
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -102,7 +102,7 @@ function Footer1() {
                         className="text-center p-3"
                         style={{backgroundColor: 'rgba(0, 0, 0, 0.2)'}}
                     >
-                        © 2020 Copyright:
+                        © 2020 Copyright:HappyLife
                     </div>
                 </footer>
         </>

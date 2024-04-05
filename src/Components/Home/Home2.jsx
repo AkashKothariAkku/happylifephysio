@@ -7,7 +7,7 @@ function Home2() {
     <>
       <div className='main-div'>
       <div className='container pt-3 pb-3'>
-                <h3 className='display-4  fs-4' >360 DEGREE PHYSIO CARE</h3>
+                <h3 className='display-4  fs-2' >360 DEGREE PHYSIO CARE</h3>
                 <p className='lead text-secondary fs-6'>We are committed to ensuring that our clients have easy access to our physiotherapy services, whether it's at any of our Clinics or through scheduling a convenient Home visit.</p>
             </div>
 

@@ -154,8 +154,8 @@ function Home4() {
                             <div  >
                                 <img src={d.img} alt="" style={{border:'2px solid #48D1CC',borderRadius:'3px',width:'300px',height:'250px'}} />
                             </div>
-                            <div className='card' style={{width:'300px',minHeight:'50px'}}>
-                                <p className='font-semibold' style={{backgroundColor:'#48D1CC',borderRadius:'3px',padding:'5px'}}>{d.title}</p>
+                            <div className='card' style={{width:'300px',minHeight:'50px',backgroundColor:'#48D1CC'}}>
+                                <p className='font-semibold' style={{borderRadius:'3px',padding:'5px'}}>{d.title}</p>
                             </div>
                         </div>
                         )

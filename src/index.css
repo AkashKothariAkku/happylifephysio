@@ -149,16 +149,15 @@ button:focus-visible {
 
 /* zoom -------------------- */
 .zoom {
-  padding: 50px;
   /* background-color: green; */
   transition: transform .2s; /* Animation */
-  width: 200px;
-  height: 200px;
+  width: 500px;
+  height: 500px;
   margin: 0 auto;
 }
 
 .zoom:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 /* -------------------------- */
@@ -187,8 +186,8 @@ button:focus-visible {
   }
    .nav-button{
     position: absolute;
-    right: 25px;
-    top: 5px;
+    right: 13px;
+    top: 13px;
     
    }
   

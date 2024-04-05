@@ -30,7 +30,7 @@ function Accordion10() {
   <div className="container">
     <div className="row gy-5 gy-lg-0 align-items-lg-center">
       <div className="col-12 col-lg-6">
-        <img className="img-fluid rounded zoom" loading="lazy" src="https://tse4.mm.bing.net/th?id=OIP.bp4YK6RkaRvIaMeQH72D9wHaE7&pid=Api&P=0&h=180" alt="How can we help you?"/>
+        <img className="img-fluid rounded zoom " loading="lazy" src="https://tse4.mm.bing.net/th?id=OIP.bp4YK6RkaRvIaMeQH72D9wHaE7&pid=Api&P=0&h=180" alt="How can we help you?"/>
       </div>
       <div className="col-12 col-lg-6">
         <div className="row justify-content-xl-end">

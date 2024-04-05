@@ -8,6 +8,7 @@ import Home4 from './Home4'
 import Home3 from './Home3'
 import Home2 from './Home2'
 import Home from './Home'
+import TherapiesOffered from '../TherapiesOffered/TherapiesOffered'
 
 function MainHome() {
   return (
@@ -20,6 +21,7 @@ function MainHome() {
         <Home5/>
         <Home6/>
         <Accordion10/>
+        <TherapiesOffered/>
         
     
     </>

@@ -165,7 +165,7 @@ function Home3() {
 
         <div className='my-4 '>
             <div className='container '>
-                <h3 className='display-4' >CB SPECIALITIES</h3>
+                <h3 className='display-4 fs-2' >CB SPECIALITIES</h3>
                 <p className='lead text-secondary fs-6'>CB Physiotherapy, provides treatments across multiple specialities in various cities. Confirm with us the availability of Physiotherapist in your nearby areas.</p>
             </div>
              <div className='container d-flex justify-content-center align-items-center' style={{width:'80vw'}}> 
@@ -174,14 +174,13 @@ function Home3() {
 
                     {data.map((d)=>{
                         return (
-                        <div className=' p-5' key={d.id} >
-                            <div>
-
+                        <div className=' p-5'  key={d.id}>
+                            <div >
                             <div  >
                                 <img src={d.img} alt="" style={{border:'1px solid #8FBC8F',borderRadius:'3px',width:'300px',height:'250px'}} />
                             </div>
-                            <div className='card' style={{width:'300px',minHeight:'50px'}}>
-                                <p className='font-semibold' style={{backgroundColor:'#8FBC8F',borderRadius:'3px',padding:'5px'}}>{d.title}</p>
+                            <div className='card' style={{width:'300px',minHeight:'50px',backgroundColor:'#8FBC8F'}}>
+                                <p className='font-semibold' style={{borderRadius:'3px',padding:'5px'}}>{d.title}</p>
                             </div>
                             </div>
                         </div>

@@ -9,12 +9,15 @@ import { Route,RouterProvider,createBrowserRouter,  createRoutesFromElements } f
 import MainHome from './Components/Home/MainHome.jsx';
 import MainAbout from './Components/About/MainAbout.jsx';
 import MainFaq from './Components/FAQ/MainFaq.jsx';
+import TherapiesOffered from './Components/TherapiesOffered/TherapiesOffered.jsx';
 
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App />}>
       <Route path='' element={<MainHome/>} />
+        <Route path='therapiesOffered' element={<TherapiesOffered/>}/>
+    
       <Route path='about' element={<MainAbout/>} />
       <Route path='faq' element={<MainFaq/>} />
       
