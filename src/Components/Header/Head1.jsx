@@ -23,32 +23,36 @@ function Head1() {
         
         <ul className="navbar-nav d-flex justify-content-center align-items-center">
             <li className="nav-item nav-ele">
-                <a className="nav-link active " aria-current="page" href="#"><NavLink  className="text-decor" activeclassname="active" to={'/'}>Home</NavLink></a>
+                <NavLink  className="  text-decor" activeclassname="active" to={'/'}>Home</NavLink>
             </li>
             <li className="nav-item nav-ele">
-            <a className="nav-link active " aria-current="page" href="#"><NavLink  className="text-decor" activeclassname="active" to={'/about'}>About Us</NavLink></a>
+                <NavLink  className="  text-decor" activeclassname="active" to={'/about'}>About Us</NavLink>
             </li>
-            <li className="nav-item dropdown nav-ele">
-                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item dropdown ">
+                <a className="nav-link dropdown-toggle nav-ele fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Our Offerings
                 </a>
                 <ul className="dropdown-menu" >
-                    <li><a className="dropdown-item"  href="#"><Link to={'/therapiesoffered'}>Therapies Offered</Link></a></li>
-                    <li><a className="dropdown-item" href="#">Services Offered</a></li>
+                    <li><Link to={'/therapiesoffered'} className="dropdown-item">Therapies Offered</Link></li>
+                    <li><Link to={'/servicesoffered'} className="dropdown-item">Services Offered</Link></li>
                 </ul>
             </li>
             <li className="nav-item nav-ele">
-                <a className="nav-link" href="#"><NavLink  className="text-decor" activeclassname="active" to={'/faq'}>FAQ</NavLink></a>
+     
+                <NavLink  className="  text-decor" activeclassname="active" to={'/faq'}>Faq</NavLink>
             </li>
-            <li className="nav-item dropdown nav-ele">
-                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <li className="nav-item dropdown ">
+                <a className="nav-link dropdown-toggle nav-ele fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Patient Education
                 </a>
                 <ul className="dropdown-menu" >
-                    <li><a className="dropdown-item"  href="#">Conditions We Treat</a></li>
-                    <li><a className="dropdown-item" href="#">Symptoms We Treat</a></li>
-                    <li><a className="dropdown-item" href="#">Home Excercises</a></li>
-                    <li><a className="dropdown-item" href="#">Blog</a></li>
+                    <li><Link to={'/conditions'} className="dropdown-item">Conditions We Treat</Link></li>
+                    <li><Link to={'/symptoms'} className="dropdown-item">Symptoms We Treat</Link></li>
+                    <li><Link to={'/exercises'} className="dropdown-item">Home Exercises</Link></li>
+                    <li><Link to={'/blog'} className="dropdown-item">Blog</Link></li>
+                    
+                    
+                
                 </ul>
             </li>
         

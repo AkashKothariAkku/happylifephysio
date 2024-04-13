@@ -21,7 +21,6 @@ function MainHome() {
         <Home5/>
         <Home6/>
         <Accordion10/>
-        <TherapiesOffered/>
         
     
     </>
