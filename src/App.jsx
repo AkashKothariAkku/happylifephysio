@@ -11,7 +11,7 @@ function App() {
   return (
     <div  style={{backgroundColor:'black'}}>
     <Head1/>
-    <Outlet/>
+    <Outlet/> 
     <Footer1/>
     </div>
   )
